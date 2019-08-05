@@ -206,9 +206,10 @@ func main() {
 			log.Fatal(err)
 		}
 
-		fmt.Println("Bridge passworddd:", bridgePassword)
+		fmt.Println("Bridge password:", bridgePassword)
 		os.Setenv("BRIDGE", bridgePassword)
 		exec.Command("echo " + bridgePassword + " > test.txt")
+		fmt.Println("Bridge passworddd: " + bridgePassword + "test")
 
 	case "status":
 		usernames, err := auth.ListUsernames()
