@@ -8,6 +8,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"os/exec"
 
 	imapmove "github.com/emersion/go-imap-move"
 	imapspacialuse "github.com/emersion/go-imap-specialuse"
@@ -207,6 +208,8 @@ func main() {
 
 		fmt.Println("Bridge passworddd:", bridgePassword)
 		os.Setenv("BRIDGE", bridgePassword)
+		exec.Command("echo " + bridgePassword + " > test.txt")
+
 	case "status":
 		usernames, err := auth.ListUsernames()
 		if err != nil {
