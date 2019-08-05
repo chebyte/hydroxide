@@ -15,8 +15,8 @@ import (
 	imapserver "github.com/emersion/go-imap/server"
 	"github.com/emersion/go-smtp"
 	"github.com/howeyc/gopass"
-	"golang.org/x/crypto/openpgp"
-	"golang.org/x/crypto/openpgp/armor"
+	"github.com/keybase/go-crypto"
+	"github.com/keybase/go-crypto/armor"
 
 	"github.com/chebyte/hydroxide/auth"
 	"github.com/chebyte/hydroxide/carddav"

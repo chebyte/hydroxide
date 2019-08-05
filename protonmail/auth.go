@@ -116,6 +116,8 @@ func (resp *authResp) auth() *Auth {
 	auth.accessToken = resp.AccessToken
 	auth.privateKey = resp.PrivateKey
 	auth.keySalt = resp.KeySalt
+	fmt.Printf(">>>>: "+auth.privateKey)
+
 	return auth
 }
 

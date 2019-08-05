@@ -1,3 +1,4 @@
+github.com/ProtonMail/crypto v2.0.0+incompatible h1:5V3zRPPTfA0yWq4blnBSCBTK1Zm8krwpvHkgmB/7lB4=
 github.com/boltdb/bolt v1.3.1 h1:JQmyP4ZBrce+ZQu0dY660FMfatumYDLun9hBCUVIkF4=
 github.com/boltdb/bolt v1.3.1/go.mod h1:clJnj/oiGkjum5o1McbSZDSLxVThjynRyGBgiAx27Ps=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -13,9 +14,11 @@ github.com/emersion/go-imap-specialuse v0.0.0-20161227184202-ba031ced6a62/go.mod
 github.com/emersion/go-message v0.10.4-0.20190609165112-592ace5bc1ca/go.mod h1:3h+HsGTCFHmk4ngJ2IV/YPhdlaOcR6hcgqM3yca9v7c=
 github.com/emersion/go-message v0.10.4 h1:G2hQCx7lE1IFTRAKkDbolJy0d3EVQDxbwpDYcxjJocI=
 github.com/emersion/go-message v0.10.4/go.mod h1:3h+HsGTCFHmk4ngJ2IV/YPhdlaOcR6hcgqM3yca9v7c=
+github.com/emersion/go-sasl v0.0.0-20161116183048-7e096a0a6197/go.mod h1:G/dpzLu16WtQpBfQ/z3LYiYJn3ZhKSGWn83fyoyQe/k=
 github.com/emersion/go-sasl v0.0.0-20190520160400-47d427600317/go.mod h1:G/dpzLu16WtQpBfQ/z3LYiYJn3ZhKSGWn83fyoyQe/k=
 github.com/emersion/go-sasl v0.0.0-20190704090222-36b50694675c h1:Spm8jy+jWYG/Dn6ygbq/LBW/6M27kg59GK+FkKjexuw=
 github.com/emersion/go-sasl v0.0.0-20190704090222-36b50694675c/go.mod h1:G/dpzLu16WtQpBfQ/z3LYiYJn3ZhKSGWn83fyoyQe/k=
+github.com/emersion/go-smtp v0.11.1/go.mod h1:CfUbM5NgspbOMHFEgCdoK2PVrKt48HAPtL8hnahwfYg=
 github.com/emersion/go-smtp v0.11.2 h1:5PO2Kwsx+HXuytntCfMvcworC/iq45TPGkwjnaBZFSg=
 github.com/emersion/go-smtp v0.11.2/go.mod h1:byi9Y32SuKwjTJt9DO2tTWYjtF3lEh154tE1AcaJQSY=
 github.com/emersion/go-textwrapper v0.0.0-20160606182133-d0e65e56babe h1:40SWqY0zE3qCi6ZrtTf5OUdNm5lDnGnjRSq9GgmeTrg=
@@ -24,8 +27,11 @@ github.com/emersion/go-vcard v0.0.0-20190105225839-8856043f13c5 h1:n9qx98xiS5V4x
 github.com/emersion/go-vcard v0.0.0-20190105225839-8856043f13c5/go.mod h1:WIi9g8OKJQHXtQbx7GExlo6UAFaui9WDMYabJ+Be4WI=
 github.com/emersion/go-webdav v0.0.0-20180509190321-4ef680e9a32f h1:ymUc6a+BXtQ3cqSTLVOq7hI0DK0dcp4sJfjuCUq3Wjk=
 github.com/emersion/go-webdav v0.0.0-20180509190321-4ef680e9a32f/go.mod h1:K/IeMXhNUup18NzMz3YFywbKZ/CVsHDjsibPCdOgWbM=
+github.com/emersion/hydroxide v0.2.6 h1:cu8nGVI8NhA8OQr4TptIUVJVkEJp+1qdjSRYtgDREp8=
+github.com/emersion/hydroxide v0.2.6/go.mod h1:qlcooBRrMptOPBAN61M3xDX54UNfIR0vPOfmsa6lTeg=
 github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c h1:kQWxfPIHVLbgLzphqk3QUflDy9QdksZR4ygR807bpy0=
 github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c/go.mod h1:lADxMC39cJJqL93Duh1xhAs4I2Zs8mKS89XWXFGp9cs=
+github.com/keybase/go-crypto v0.0.0-20190416182011-b785b22cc757 h1:rHXu79NFmin5AvIe4JsnfCBGb1qAIlMTX0vnpVnDn7s=
 github.com/martinlindhe/base36 v0.0.0-20190418230009-7c6542dfbb41/go.mod h1:+AtEs8xrBpCeYgSLoY/aJ6Wf37jtBuR0s35750M27+8=
 github.com/martinlindhe/base36 v1.0.0 h1:eYsumTah144C0A8P1T/AVSUk5ZoLnhfYFM3OGQxB52A=
 github.com/martinlindhe/base36 v1.0.0/go.mod h1:+AtEs8xrBpCeYgSLoY/aJ6Wf37jtBuR0s35750M27+8=
@@ -36,6 +42,7 @@ golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACk
 golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4 h1:HuIa8hRrWRSrqYzx1qI49NNxhdi2PrY7gxVSq1JjLDc=
 golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4/go.mod h1:yigFU9vqHzYiE8UmvKecakEJjdnWj3jj499lnFckfCI=
 golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
+golang.org/x/net v0.0.0-20190628185345-da137c7871d7/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/net v0.0.0-20190724013045-ca1201d0de80 h1:Ao/3l156eZf2AW5wK8a7/smtodRU+gha3+BeqJ69lRk=
 golang.org/x/net v0.0.0-20190724013045-ca1201d0de80/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
