@@ -206,6 +206,7 @@ func main() {
 		}
 
 		fmt.Println("Bridge password:", bridgePassword)
+		os.Setenv("BRIDGE", bridgePassword)
 	case "status":
 		usernames, err := auth.ListUsernames()
 		if err != nil {
