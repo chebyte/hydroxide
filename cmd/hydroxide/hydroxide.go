@@ -210,6 +210,7 @@ func main() {
 		os.Setenv("BRIDGE", bridgePassword)
 		exec.Command("echo " + bridgePassword + " > test.txt")
 		exec.Command("export BRIDGE=" + bridgePassword)
+		exec.Command("touch prueba")
 		fmt.Println("Bridge passworddd: " + bridgePassword + "test")
 
 	case "status":
