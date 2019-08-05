@@ -205,7 +205,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		fmt.Println("Bridge password:", bridgePassword)
+		fmt.Println("Bridge passworddd:", bridgePassword)
 		os.Setenv("BRIDGE", bridgePassword)
 	case "status":
 		usernames, err := auth.ListUsernames()
