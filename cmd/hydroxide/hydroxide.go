@@ -17,13 +17,13 @@ import (
 	"golang.org/x/crypto/openpgp"
 	"golang.org/x/crypto/openpgp/armor"
 
-	"github.com/emersion/hydroxide/auth"
-	"github.com/emersion/hydroxide/carddav"
-	"github.com/emersion/hydroxide/events"
-	imapbackend "github.com/emersion/hydroxide/imap"
-	"github.com/emersion/hydroxide/imports"
-	"github.com/emersion/hydroxide/protonmail"
-	smtpbackend "github.com/emersion/hydroxide/smtp"
+	"github.com/chebyte/hydroxide/auth"
+	"github.com/chebyte/hydroxide/carddav"
+	"github.com/chebyte/hydroxide/events"
+	imapbackend "github.com/chebyte/hydroxide/imap"
+	"github.com/chebyte/hydroxide/imports"
+	"github.com/chebyte/hydroxide/protonmail"
+	smtpbackend "github.com/chebyte/hydroxide/smtp"
 )
 
 func newClient() *protonmail.Client {
