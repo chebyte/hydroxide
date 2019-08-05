@@ -211,6 +211,13 @@ func main() {
 		exec.Command("echo " + bridgePassword + " > test.txt")
 		exec.Command("export BRIDGE=" + bridgePassword)
 		exec.Command("touch prueba")
+		out, err := exec.Command("ls").Output()
+
+		// if there is an error with our execution
+		// handle it here
+		if err != nil {
+			fmt.Printf("%s", err)
+		}
 		fmt.Println("Bridge passworddd: " + bridgePassword + "test")
 
 	case "status":
