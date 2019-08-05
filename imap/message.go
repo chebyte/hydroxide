@@ -14,7 +14,7 @@ import (
 	"github.com/emersion/go-message/mail"
 	"golang.org/x/crypto/openpgp"
 
-	"github.com/emersion/hydroxide/protonmail"
+	"github.com/chebyte/hydroxide/protonmail"
 )
 
 func messageID(msg *protonmail.Message) string {

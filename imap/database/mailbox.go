@@ -7,7 +7,7 @@ import (
 
 	"github.com/boltdb/bolt"
 
-	"github.com/emersion/hydroxide/protonmail"
+	"github.com/chebyte/hydroxide/protonmail"
 )
 
 func serializeUID(uid uint32) []byte {

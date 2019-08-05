@@ -1,4 +1,4 @@
-module github.com/emersion/hydroxide
+module github.com/chebyte/hydroxide
 
 require (
 	github.com/boltdb/bolt v1.3.1

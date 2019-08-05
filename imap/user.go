@@ -9,9 +9,9 @@ import (
 	imapbackend "github.com/emersion/go-imap/backend"
 	"golang.org/x/crypto/openpgp"
 
-	"github.com/emersion/hydroxide/events"
-	"github.com/emersion/hydroxide/imap/database"
-	"github.com/emersion/hydroxide/protonmail"
+	"github.com/chebyte/hydroxide/events"
+	"github.com/chebyte/hydroxide/imap/database"
+	"github.com/chebyte/hydroxide/protonmail"
 )
 
 var systemMailboxes = []struct {

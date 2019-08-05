@@ -13,8 +13,8 @@ import (
 	"golang.org/x/crypto/nacl/secretbox"
 	"golang.org/x/crypto/openpgp"
 
-	"github.com/emersion/hydroxide/config"
-	"github.com/emersion/hydroxide/protonmail"
+	"github.com/chebyte/hydroxide/config"
+	"github.com/chebyte/hydroxide/protonmail"
 )
 
 func authFilePath() (string, error) {

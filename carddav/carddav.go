@@ -13,7 +13,7 @@ import (
 
 	"github.com/emersion/go-vcard"
 	"github.com/emersion/go-webdav/carddav"
-	"github.com/emersion/hydroxide/protonmail"
+	"github.com/chebyte/hydroxide/protonmail"
 	"golang.org/x/crypto/openpgp"
 )
 
